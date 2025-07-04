@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#head {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+svg {
+    width: 25px;
+}
+
+#navcenter {
+    display: flex;
+    gap: 30px;
+}
+
+#navcenter>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#navcenetr>div>span {
+    font-size: 20px;
+}
+
+.navsame {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navsame>button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#navbutton {
+    gap: 30px;
+}
+
+#main {
+    height: 80vh;
+    display: flex;
+    margin-top: 30px;
+}
+
+.mainsame {
+    height: 100%;
+    width: 50%;
+}
+
+#mainsamediv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+#mainsamediv>h1 {
+    font-size: 50px;
+}
+
+#mainsamedesc {
+    font-size: 20px;
+    color: gray;
+}
+
+.maininput>input {
+    border: 2px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.maininput>p {
+    color: gray;
+    justify-content: center;
+    text-align: justify;
+}
+
+#mainbutton {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#mainsamediv1 {
+    display: flex;
+    justify-content: center;
+}
+
+#mainsamediv1>div {
+    height: 100%;
+    width: 70%;
+    background-color: blue;
+    background-image: url('https://themewagon.github.io/Next.js-Tailwind-CSS-Portfolio-Template/image/image-7.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#clients {
+    height: 20vh;
+    margin-top: 100px;
+}
+
+#clients>h4 {
+    text-align: center;
+}
+
+#clients>div>img {
+    width: 200px;
+}
+
+#client>div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#whatido {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#whatido>h4,
+h1,
+p {
+    text-align: center;
+}
+
+#whatido>h4 {
+    font-size: 15px;
+}
+
+#whatido>h1 {
+    font-size: 50px;
+}
+
+#whatido>p {
+    font-size: 20px;
+    color: gray;
+    width: 70%;
+    padding-left: 150px;
+}
+
+#skills {
+    height: 100vh;
+}
+
+.skillsame{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skillsame > h2{
+    font-size: 30px;
+}
+
+.skillsame > p{
+    font-size: 20px;
+    justify-content: center;
+    color: gray;
+}
