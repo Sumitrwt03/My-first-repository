@@ -171,24 +171,288 @@ p {
 
 #skills {
     height: 100vh;
+    align-items: center;
 }
 
-.skillsame{
-    width: 400px;
-    height: 450px;
+#skills>.skilldiv1,
+.skilldiv2 {
+    display: flex;
+    column-gap: 5%;
+}
+
+
+.skillsame {
+    width: 35%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 20px;
 }
 
-.skillsame > h2{
-    font-size: 30px;
+.skillsame>h2 {
+    font-size: 25px;
 }
 
-.skillsame > p{
-    font-size: 20px;
+.skillsame>p {
+    font-size: 15px;
     justify-content: center;
     color: gray;
+}
+
+.skillsame>#svgdiv {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+#myproject {
+    height: 150vh;
+    width: 100vw;
+    padding: 10px;
+}
+
+
+#myproject>h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    line-height: 40px;
+
+}
+
+#myproject>p {
+    font-size: 25px;
+    color: gray;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.comman>img {
+    height: 200px;
+    width: 300;
+    padding-bottom: 15px;
+}
+
+#sameproject>.comman {
+    padding-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.comman {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.comman>h4 {
+    font-size: 20px;
+}
+
+.comman>p {
+    font-size: 15px;
+    padding: 15px;
+    color: gray;
+}
+
+#sameproject {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#sameproject>h5 {
+    padding: 40px;
+}
+
+#aboutme {
+    height: 50vh;
+    width: 100vw;
+    margin-top: 100px;
+}
+
+#aboutme>.part1>h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+#aboutme>.part1>p {
+    font-size: 20px;
+    color: gray;
+}
+
+section>button {
+    margin: 30px;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+#aboutme>.part2 {
+    height: 110px;
+}
+
+#aboutme>.part2>.same {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#aboutme>.part2>div>svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#aboutme>.part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+#contact {
+    height: 130vh;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+}
+
+#contact>h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#maininfo>.contactdiv1 {
+    width: 40%;
+    height: 80%;
+    color: white;
+    border-radius: 10px;
+    padding: 60px;
+    padding-top: 40px;
+    margin-top: 40px;
+    background-color: black;
+    line-height: 50px;
+}
+
+
+#maininfo>.contactdiv1>.contactinfo {
+    margin-top: 80px;
+    line-height: 70px;
+}
+
+.commaninfo>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+.userinfo {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    line-height: 70px;
+    margin-top: 40px;
+}
+
+.userinfo>#infoform {
+    display: flex;
+    flex-direction: column;
+}
+
+.userinfo>#infoform>label {
+    display: inline-flex;
+}
+
+.userinfo>#infoform>input {
+    border: none;
+    outline: no;
+    border-bottom: 1px solid gray;
+}
+
+
+#maininfo {
+    display: flex;
+    gap: 40px;
+}
+
+#select {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+#infoform>.opt {
+    display: grid;
+
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.msg>#feed {
+    height: 50%;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline-style: none;
+}
+
+.msg>button {
+    width: 70%;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.footer {
+    height: 40vh;
+    width: 100vw;
+    margin-top: 120px;
+    line-height: 2.5em;
+}
+
+.footer>section {
+    font-size: 1em;
+    color: gray;
+}
+
+.footer>section>a {
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+img:hover{
+    transform:scaleY(2);
+    transform: translateX(2);
 }
